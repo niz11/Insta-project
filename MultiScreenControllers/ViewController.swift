@@ -6,16 +6,23 @@
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
+/*
+ First landing page
+ */
 import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var registerButton: UIButton!
     override func viewDidLoad() {
+        //making the button round
+        registerButton.layer.cornerRadius = 10
+        registerButton.clipsToBounds = true
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("I am first")
     }
-
 
 }
 
