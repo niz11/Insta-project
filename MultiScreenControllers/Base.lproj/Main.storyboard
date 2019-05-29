@@ -147,7 +147,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                 <connections>
-                                    <action selector="OnStartTyping:" destination="66J-gc-bcc" eventType="editingDidBegin" id="kBe-Xb-Z3R"/>
+                                    <action selector="OnClickName:" destination="Fhi-p5-HSV" eventType="touchDown" id="U2M-Ig-cyA"/>
+                                    <action selector="OnTypeName:" destination="Fhi-p5-HSV" eventType="editingChanged" id="qYp-Cd-pkB"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="kCq-am-j6k">
@@ -159,10 +160,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                 <connections>
-                                    <action selector="OnStartTyping:" destination="66J-gc-bcc" eventType="editingDidBegin" id="kkm-UI-CjK"/>
+                                    <action selector="OnTouchPass:" destination="Fhi-p5-HSV" eventType="touchDown" id="1gK-H2-bJU"/>
+                                    <action selector="OnTypePass:" destination="Fhi-p5-HSV" eventType="editingChanged" id="6O3-as-Yo5"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" alpha="0.60000002384185791" tag="-10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5W-Bf-XQn">
+                            <button opaque="NO" alpha="0.59999999999999998" tag="-10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5W-Bf-XQn">
                                 <rect key="frame" x="25" y="385" width="362" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -222,6 +224,11 @@
                         <viewLayoutGuide key="safeArea" id="zF2-Dr-xUh"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="JWO-N6-zmW"/>
+                    <connections>
+                        <outlet property="ContinueAndSync" destination="J5W-Bf-XQn" id="r26-va-v8q"/>
+                        <outlet property="FullNameButton" destination="6kF-kK-M12" id="2am-od-YNe"/>
+                        <outlet property="PasswordButton" destination="kCq-am-j6k" id="SZy-gz-im9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghh-VU-nq9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
