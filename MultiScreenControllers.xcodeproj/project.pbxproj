@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B8069875229FDD7600A2B6DE /* FourthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */; };
+		B8069877229FFB9B00A2B6DE /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8069876229FFB9B00A2B6DE /* FifthViewController.swift */; };
+		B806987B22A001D800A2B6DE /* add_friend_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B806987A22A001D700A2B6DE /* add_friend_icon.jpg */; };
+		B806987D22A0027200A2B6DE /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806987C22A0027200A2B6DE /* SixthViewController.swift */; };
+		B806987F22A0058800A2B6DE /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B806987E22A0058700A2B6DE /* camera_icon.png */; };
+		B806988122A00A7D00A2B6DE /* seventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B806988022A00A7D00A2B6DE /* seventhViewController.swift */; };
+		B806988522A00B9200A2B6DE /* instagram_welcome_page2.png in Resources */ = {isa = PBXBuildFile; fileRef = B806988422A00B9200A2B6DE /* instagram_welcome_page2.png */; };
 		B8562308229C62A70055ED7F /* 1200px-Instagram_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = B8562307229C62A70055ED7F /* 1200px-Instagram_logo.svg.png */; };
 		B856230A229C69680055ED7F /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8562309229C69680055ED7F /* RegisterPageViewController.swift */; };
 		B87293AF229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B87293AE229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png */; };
@@ -43,6 +49,12 @@
 
 /* Begin PBXFileReference section */
 		B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPageViewController.swift; sourceTree = "<group>"; };
+		B8069876229FFB9B00A2B6DE /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		B806987A22A001D700A2B6DE /* add_friend_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_friend_icon.jpg; sourceTree = "<group>"; };
+		B806987C22A0027200A2B6DE /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		B806987E22A0058700A2B6DE /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		B806988022A00A7D00A2B6DE /* seventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventhViewController.swift; sourceTree = "<group>"; };
+		B806988422A00B9200A2B6DE /* instagram_welcome_page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram_welcome_page2.png; sourceTree = "<group>"; };
 		B8562307229C62A70055ED7F /* 1200px-Instagram_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Instagram_logo.svg.png"; sourceTree = "<group>"; };
 		B8562309229C69680055ED7F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		B87293AE229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26_back_left_arrow_navigation_sign-512.png"; sourceTree = "<group>"; };
@@ -120,6 +132,9 @@
 				B8562307229C62A70055ED7F /* 1200px-Instagram_logo.svg.png */,
 				B87293AE229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png */,
 				B87293B2229DD10200CD141B /* icon-man.png */,
+				B806987A22A001D700A2B6DE /* add_friend_icon.jpg */,
+				B806988422A00B9200A2B6DE /* instagram_welcome_page2.png */,
+				B806987E22A0058700A2B6DE /* camera_icon.png */,
 				B87293B0229DCDA200CD141B /* _User_Man_Circle-512.png */,
 				B8DA3C34229BCC3E001FF10B /* Assets.xcassets */,
 				B8DA3C36229BCC3E001FF10B /* LaunchScreen.storyboard */,
@@ -127,6 +142,9 @@
 				B8562309229C69680055ED7F /* RegisterPageViewController.swift */,
 				B87293B6229DDEB300CD141B /* ThirdPageViewController.swift */,
 				B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */,
+				B8069876229FFB9B00A2B6DE /* FifthViewController.swift */,
+				B806987C22A0027200A2B6DE /* SixthViewController.swift */,
+				B806988022A00A7D00A2B6DE /* seventhViewController.swift */,
 			);
 			path = MultiScreenControllers;
 			sourceTree = "<group>";
@@ -254,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87293AF229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png in Resources */,
+				B806988522A00B9200A2B6DE /* instagram_welcome_page2.png in Resources */,
 				B8562308229C62A70055ED7F /* 1200px-Instagram_logo.svg.png in Resources */,
+				B806987B22A001D800A2B6DE /* add_friend_icon.jpg in Resources */,
 				B87293B3229DD10300CD141B /* icon-man.png in Resources */,
+				B806987F22A0058800A2B6DE /* camera_icon.png in Resources */,
 				B8DA3C38229BCC3E001FF10B /* LaunchScreen.storyboard in Resources */,
 				B87293B1229DCDA200CD141B /* _User_Man_Circle-512.png in Resources */,
 				B8DA3C35229BCC3E001FF10B /* Assets.xcassets in Resources */,
@@ -287,9 +308,12 @@
 				B856230A229C69680055ED7F /* RegisterPageViewController.swift in Sources */,
 				B8069875229FDD7600A2B6DE /* FourthPageViewController.swift in Sources */,
 				B8DA3C5C229BCD60001FF10B /* SecondViewController.swift in Sources */,
+				B806987D22A0027200A2B6DE /* SixthViewController.swift in Sources */,
 				B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */,
 				B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */,
 				B87293B7229DDEB300CD141B /* ThirdPageViewController.swift in Sources */,
+				B806988122A00A7D00A2B6DE /* seventhViewController.swift in Sources */,
+				B8069877229FFB9B00A2B6DE /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

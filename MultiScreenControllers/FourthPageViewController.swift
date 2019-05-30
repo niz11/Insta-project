@@ -11,26 +11,20 @@
 import UIKit
 
 class FourthPageViewController: UIViewController {
-
+    @IBOutlet weak var NextButton: UIButton!
+    
     @IBOutlet weak var UserName: UILabel!
     var input_user_name = String()
     
     override func viewDidLoad() {
+        //Changing style of buttons
+        NextButton.layer.cornerRadius = 10
+        NextButton.clipsToBounds = true
+        
         super.viewDidLoad()
         //Showing the username
         UserName.text = input_user_name
         print("Fourth page")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

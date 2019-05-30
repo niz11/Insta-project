@@ -23,6 +23,8 @@ class ThirdPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Changing style of buttons
+        ContinueAndSync.layer.cornerRadius = 10
+        ContinueAndSync.clipsToBounds = true
         FullNameButton.translatesAutoresizingMaskIntoConstraints = false
         FullNameButton.placeholder = "Full Name"
         FullNameButton.borderStyle = .roundedRect
