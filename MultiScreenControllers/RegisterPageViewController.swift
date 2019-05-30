@@ -6,7 +6,7 @@
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 /*
-    Second landing page
+    Second landing page - input Email
 */
 import UIKit
 

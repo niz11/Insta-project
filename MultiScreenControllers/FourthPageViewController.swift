@@ -6,6 +6,8 @@
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
+// Fourth landing page, welcome and agree to Terms
+
 import UIKit
 
 class FourthPageViewController: UIViewController {

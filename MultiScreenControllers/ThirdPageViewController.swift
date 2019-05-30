@@ -6,6 +6,8 @@
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
+// Third landing page - input name and pass
+
 import UIKit
 
 class ThirdPageViewController: UIViewController {
