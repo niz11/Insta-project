@@ -14,6 +14,9 @@ class RegisterPageViewController: UIViewController {
 
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var NextButton: UIButton!
+    
+    var Input_Email = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //making the button round
@@ -27,22 +30,22 @@ class RegisterPageViewController: UIViewController {
         EmailTextField.borderStyle = .roundedRect
         EmailTextField.font = .systemFont(ofSize: 14)
         EmailTextField.backgroundColor = UIColor(white: 0, alpha: 0.03)
+        
+        NextButton.isEnabled = false
     }
     
     
-    @IBAction func OnStartTyping(_ sender: Any) {
-        //Changing Next button color
+    @IBAction func OnTypeEventEmail(_ sender: Any) {
+        Input_Email = String(EmailTextField.text!)
+        //Checking if email is valid
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        NextButton.isEnabled  = emailTest.evaluate(with: Input_Email)
+        
+        //Changing the color of the next button
         NextButton.alpha = 1
+        
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

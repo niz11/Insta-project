@@ -118,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qkc-Px-9Uo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2264" y="19"/>
+            <point key="canvasLocation" x="3035" y="15"/>
         </scene>
         <!--Title-->
         <scene sceneID="H1Q-FZ-d9t">
@@ -175,6 +175,10 @@
                                 <state key="normal" title="Continue and Sync Contacts">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="OnClickContinue:" destination="Fhi-p5-HSV" eventType="touchUpInside" id="6fd-z2-gTU"/>
+                                    <segue destination="I4b-3N-Mgn" kind="show" identifier="segue" id="2hH-yR-nbB"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YW7-SW-wxg">
                                 <rect key="frame" x="25" y="328" width="49" height="31"/>
@@ -234,6 +238,40 @@
             </objects>
             <point key="canvasLocation" x="1498.5507246376812" y="14.732142857142856"/>
         </scene>
+        <!--Fourth Page View Controller-->
+        <scene sceneID="fwV-Bj-spS">
+            <objects>
+                <viewController id="I4b-3N-Mgn" customClass="FourthPageViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qAU-Js-1A9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bS-Mj-0wa">
+                                <rect key="frame" x="93" y="115" width="228" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Instagram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax3-Kv-VzS">
+                                <rect key="frame" x="93" y="98" width="228" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="c8g-6i-Fj5"/>
+                    </view>
+                    <connections>
+                        <outlet property="UserName" destination="2bS-Mj-0wa" id="Zd4-DY-o2j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfK-rB-1et" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2239.130434782609" y="13.392857142857142"/>
+        </scene>
         <!--Title-->
         <scene sceneID="PXR-hN-3Uj">
             <objects>
@@ -283,7 +321,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
                                 <connections>
-                                    <action selector="OnStartTyping:" destination="66J-gc-bcc" eventType="editingDidBegin" id="l8A-XQ-fh4"/>
+                                    <action selector="OnTypeEventEmail:" destination="66J-gc-bcc" eventType="editingChanged" id="geX-h5-seg"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -308,6 +346,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="L64-Ix-blq"/>
-        <segue reference="Dov-Pb-BW4"/>
+        <segue reference="uDI-Ht-z63"/>
     </inferredMetricsTieBreakers>
 </document>

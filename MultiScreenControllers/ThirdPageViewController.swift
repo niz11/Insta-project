@@ -17,6 +17,7 @@ class ThirdPageViewController: UIViewController {
     
     var lengthOfUserName = 0
     var lengthOfUPassword = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Changing style of buttons
@@ -33,7 +34,7 @@ class ThirdPageViewController: UIViewController {
         PasswordButton.font = .systemFont(ofSize: 14)
         PasswordButton.backgroundColor = UIColor(white: 0, alpha: 0.03)
         
-        
+        ContinueAndSync.isEnabled = false;
     }
     
 
@@ -47,8 +48,10 @@ class ThirdPageViewController: UIViewController {
         
         if lengthOfUserName > 3 && lengthOfUPassword > 3{
             ContinueAndSync.alpha = 1
+            ContinueAndSync.isEnabled = true;
         } else {
             ContinueAndSync.alpha = 0.6
+            ContinueAndSync.isEnabled = false;
         }
     }
     
@@ -61,9 +64,26 @@ class ThirdPageViewController: UIViewController {
         
         if lengthOfUserName > 3 && lengthOfUPassword > 3{
             ContinueAndSync.alpha = 1
+            ContinueAndSync.isEnabled = true;
         } else {
             ContinueAndSync.alpha = 0.6
+            ContinueAndSync.isEnabled = false;
         }
+    }
+    
+    @IBAction func OnClickContinue(_ sender: Any) {
+        if ContinueAndSync.isEnabled {
+            performSegue(withIdentifier: "segue", sender: self)
+        }
+    }
+    //Pusing values to next view controller
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is FourthPageViewController{
+            let FourthViewController = segue.destination as? FourthPageViewController;
+            
+            FourthViewController?.input_user_name = String(FullNameButton.text!)
+        }
+        
     }
     
     

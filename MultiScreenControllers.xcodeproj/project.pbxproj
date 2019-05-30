@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8069875229FDD7600A2B6DE /* FourthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */; };
 		B8562308229C62A70055ED7F /* 1200px-Instagram_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = B8562307229C62A70055ED7F /* 1200px-Instagram_logo.svg.png */; };
 		B856230A229C69680055ED7F /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8562309229C69680055ED7F /* RegisterPageViewController.swift */; };
 		B87293AF229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B87293AE229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPageViewController.swift; sourceTree = "<group>"; };
 		B8562307229C62A70055ED7F /* 1200px-Instagram_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Instagram_logo.svg.png"; sourceTree = "<group>"; };
 		B8562309229C69680055ED7F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		B87293AE229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26_back_left_arrow_navigation_sign-512.png"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				B8DA3C39229BCC3E001FF10B /* Info.plist */,
 				B8562309229C69680055ED7F /* RegisterPageViewController.swift */,
 				B87293B6229DDEB300CD141B /* ThirdPageViewController.swift */,
+				B8069874229FDD7600A2B6DE /* FourthPageViewController.swift */,
 			);
 			path = MultiScreenControllers;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B856230A229C69680055ED7F /* RegisterPageViewController.swift in Sources */,
+				B8069875229FDD7600A2B6DE /* FourthPageViewController.swift in Sources */,
 				B8DA3C5C229BCD60001FF10B /* SecondViewController.swift in Sources */,
 				B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */,
 				B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */,
