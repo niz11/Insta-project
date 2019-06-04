@@ -10,15 +10,12 @@ import UIKit
 
 class FifthViewController: UIViewController {
     @IBOutlet weak var ConnectToFaceBottun: UIButton!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         //Changing style of buttons
         ConnectToFaceBottun.layer.cornerRadius = 10
         ConnectToFaceBottun.clipsToBounds = true
-        
-        print("Hello Fifth")
-        // Do any additional setup after loading the view.
     }
     
 

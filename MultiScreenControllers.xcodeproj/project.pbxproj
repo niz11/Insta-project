@@ -20,6 +20,11 @@
 		B87293B1229DCDA200CD141B /* _User_Man_Circle-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B87293B0229DCDA200CD141B /* _User_Man_Circle-512.png */; };
 		B87293B3229DD10300CD141B /* icon-man.png in Resources */ = {isa = PBXBuildFile; fileRef = B87293B2229DD10200CD141B /* icon-man.png */; };
 		B87293B7229DDEB300CD141B /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87293B6229DDEB300CD141B /* ThirdPageViewController.swift */; };
+		B8A85BD922A646EF00E83437 /* instagram_welcome_page_upperbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BD822A646EF00E83437 /* instagram_welcome_page_upperbar.jpg */; };
+		B8A85BDB22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BDA22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg */; };
+		B8A85BDD22A648ED00E83437 /* Welcome_to_Insta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */; };
+		B8A85BDF22A649D800E83437 /* follow_iamge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BDE22A649D800E83437 /* follow_iamge.jpg */; };
+		B8A85BE122A64EAB00E83437 /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A85BE022A64EAB00E83437 /* EighthViewController.swift */; };
 		B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */; };
 		B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2F229BCC3D001FF10B /* ViewController.swift */; };
 		B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3C31229BCC3D001FF10B /* Main.storyboard */; };
@@ -61,6 +66,11 @@
 		B87293B0229DCDA200CD141B /* _User_Man_Circle-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_User_Man_Circle-512.png"; sourceTree = "<group>"; };
 		B87293B2229DD10200CD141B /* icon-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-man.png"; sourceTree = "<group>"; };
 		B87293B6229DDEB300CD141B /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		B8A85BD822A646EF00E83437 /* instagram_welcome_page_upperbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instagram_welcome_page_upperbar.jpg; sourceTree = "<group>"; };
+		B8A85BDA22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instagram_welcome_page_lowerbar.jpg; sourceTree = "<group>"; };
+		B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome_to_Insta.jpg; sourceTree = "<group>"; };
+		B8A85BDE22A649D800E83437 /* follow_iamge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = follow_iamge.jpg; sourceTree = "<group>"; };
+		B8A85BE022A64EAB00E83437 /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
 		B8DA3C2A229BCC3D001FF10B /* MultiScreenControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScreenControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DA3C2F229BCC3D001FF10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,8 +144,12 @@
 				B87293B2229DD10200CD141B /* icon-man.png */,
 				B806987A22A001D700A2B6DE /* add_friend_icon.jpg */,
 				B806988422A00B9200A2B6DE /* instagram_welcome_page2.png */,
+				B8A85BD822A646EF00E83437 /* instagram_welcome_page_upperbar.jpg */,
+				B8A85BDA22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg */,
 				B806987E22A0058700A2B6DE /* camera_icon.png */,
 				B87293B0229DCDA200CD141B /* _User_Man_Circle-512.png */,
+				B8A85BDE22A649D800E83437 /* follow_iamge.jpg */,
+				B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */,
 				B8DA3C34229BCC3E001FF10B /* Assets.xcassets */,
 				B8DA3C36229BCC3E001FF10B /* LaunchScreen.storyboard */,
 				B8DA3C39229BCC3E001FF10B /* Info.plist */,
@@ -145,6 +159,7 @@
 				B8069876229FFB9B00A2B6DE /* FifthViewController.swift */,
 				B806987C22A0027200A2B6DE /* SixthViewController.swift */,
 				B806988022A00A7D00A2B6DE /* seventhViewController.swift */,
+				B8A85BE022A64EAB00E83437 /* EighthViewController.swift */,
 			);
 			path = MultiScreenControllers;
 			sourceTree = "<group>";
@@ -277,9 +292,13 @@
 				B806987B22A001D800A2B6DE /* add_friend_icon.jpg in Resources */,
 				B87293B3229DD10300CD141B /* icon-man.png in Resources */,
 				B806987F22A0058800A2B6DE /* camera_icon.png in Resources */,
+				B8A85BDF22A649D800E83437 /* follow_iamge.jpg in Resources */,
 				B8DA3C38229BCC3E001FF10B /* LaunchScreen.storyboard in Resources */,
+				B8A85BDD22A648ED00E83437 /* Welcome_to_Insta.jpg in Resources */,
 				B87293B1229DCDA200CD141B /* _User_Man_Circle-512.png in Resources */,
+				B8A85BDB22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg in Resources */,
 				B8DA3C35229BCC3E001FF10B /* Assets.xcassets in Resources */,
+				B8A85BD922A646EF00E83437 /* instagram_welcome_page_upperbar.jpg in Resources */,
 				B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +329,7 @@
 				B8DA3C5C229BCD60001FF10B /* SecondViewController.swift in Sources */,
 				B806987D22A0027200A2B6DE /* SixthViewController.swift in Sources */,
 				B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */,
+				B8A85BE122A64EAB00E83437 /* EighthViewController.swift in Sources */,
 				B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */,
 				B87293B7229DDEB300CD141B /* ThirdPageViewController.swift in Sources */,
 				B806988122A00A7D00A2B6DE /* seventhViewController.swift in Sources */,

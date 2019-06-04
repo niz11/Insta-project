@@ -17,6 +17,8 @@ class ThirdPageViewController: UIViewController {
     
     @IBOutlet weak var ContinueAndSync: UIButton!
     
+    @IBOutlet weak var continueWithoutSync: UIButton!
+    
     var lengthOfUserName = 0
     var lengthOfUPassword = 0
     
@@ -39,6 +41,7 @@ class ThirdPageViewController: UIViewController {
         PasswordButton.backgroundColor = UIColor(white: 0, alpha: 0.03)
         
         ContinueAndSync.isEnabled = false;
+        continueWithoutSync.isEnabled = false;
     }
     
 
@@ -53,9 +56,11 @@ class ThirdPageViewController: UIViewController {
         if lengthOfUserName > 3 && lengthOfUPassword > 3{
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
+            continueWithoutSync.isEnabled = true;
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;
+            continueWithoutSync.isEnabled = false;
         }
     }
     
@@ -69,9 +74,11 @@ class ThirdPageViewController: UIViewController {
         if lengthOfUserName > 3 && lengthOfUPassword > 3{
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
+            continueWithoutSync.isEnabled = true;
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;
+            continueWithoutSync.isEnabled = false;
         }
     }
     
@@ -89,6 +96,11 @@ class ThirdPageViewController: UIViewController {
         }
         
     }
+    
+    @IBAction func LearnMoreButton(_ sender: Any) {
+        print("clicked on learn more")
+    }
+    
     
     
 
