@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ThirdPageViewController: UIViewController {
+class ThirdPageViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var FullNameButton: UITextField!
     @IBOutlet weak var PasswordButton: UITextField!
@@ -24,6 +24,8 @@ class ThirdPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        FullNameButton.delegate = self
+        PasswordButton.delegate = self
         //Changing style of buttons
         ContinueAndSync.layer.cornerRadius = 10
         ContinueAndSync.clipsToBounds = true
@@ -100,7 +102,22 @@ class ThirdPageViewController: UIViewController {
     @IBAction func LearnMoreButton(_ sender: Any) {
         print("clicked on learn more")
     }
-    
+    //Will run when touching the main screen
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //self == viewcontroller
+        //That thrws away the keyboard
+        self.view.endEditing(true)
+    }
+    //Telling when happens when return button in keyboard is presssed -> closing keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //functions get the textfield as var, and we run on it a functuins that closes it.
+        FullNameButton.resignFirstResponder()
+        PasswordButton.resignFirstResponder()
+
+        //After that we go to the textfiled, ctrl + click it and drug the blue arrow to the yellow symbol of the view controller. and select -"delegete"
+        
+        return true
+    }
     
     
 

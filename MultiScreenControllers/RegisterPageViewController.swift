@@ -10,7 +10,7 @@
 */
 import UIKit
 
-class RegisterPageViewController: UIViewController {
+class RegisterPageViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var NextButton: UIButton!
@@ -19,6 +19,7 @@ class RegisterPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        EmailTextField.delegate = self
         //making the button round
         NextButton.layer.cornerRadius = 10
         NextButton.clipsToBounds = true
@@ -45,6 +46,20 @@ class RegisterPageViewController: UIViewController {
         //Changing the color of the next button
         NextButton.alpha = 1
         
+    }
+    //Will run when touching the main screen
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //self == viewcontroller
+        //That thrws away the keyboard
+        self.view.endEditing(true)
+    }
+    //Telling when happens when return button in keyboard is presssed -> closing keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //functions get the textfield as var, and we run on it a functuins that closes it.
+        EmailTextField.resignFirstResponder()
+        //After that we go to the textfiled, ctrl + click it and drug the blue arrow to the yellow symbol of the view controller. and select -"delegete"
+        
+        return true
     }
     
 
