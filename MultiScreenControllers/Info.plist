@@ -45,5 +45,7 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>This Application needs to use the camera device</string>
+	<key></key>
+	<string></string>
 </dict>
 </plist>

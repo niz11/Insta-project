@@ -148,6 +148,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         content.title = "Choose your password carefully"
         content.subtitle = "Be Careful"
         content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        
         content.sound = UNNotificationSound.default
         
         print(content)

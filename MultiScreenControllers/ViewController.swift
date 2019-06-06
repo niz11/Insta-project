@@ -9,6 +9,16 @@
 /*
  First landing page
  */
+/*
+ * Password
+ * Contacnts
+ * Terms and conditions
+ * facebook
+ * photo gallery
+ * location
+ * camera
+ * mic
+ */
 import UIKit
 
 class ViewController: UIViewController {

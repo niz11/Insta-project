@@ -7,8 +7,23 @@
 //
 
 import UIKit
+import UserNotifications
+
+extension SixthViewController : UNUserNotificationCenterDelegate {
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification:
+        UNNotification, withCompletionHandler completionHandler: @escaping
+        (UNNotificationPresentationOptions) -> Void) {
+        
+        
+        completionHandler([.alert, .sound, .badge])
+        
+    }
+}
 
 class SixthViewController: UIViewController {
+    //give the notification only once
+    var galleryNotification = true;
 
     @IBOutlet weak var AddPhotoButton: UIButton!
     
@@ -18,18 +33,38 @@ class SixthViewController: UIViewController {
         AddPhotoButton.layer.cornerRadius = 10
         AddPhotoButton.clipsToBounds = true
         
-        // Do any additional setup after loading the view.
+        //Calls notification
+        if galleryNotification {
+            createPasswordNotification()
+        }
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func createPasswordNotification() {
+        
+        
+        let content = UNMutableNotificationContent()
+        content.title = "What about your dickpics?"
+        content.subtitle = "Be Careful"
+        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        
+        content.sound = UNNotificationSound.default
+        
+        print(content)
+        
+        let triger = UNTimeIntervalNotificationTrigger(timeInterval: 0.5, repeats: false)
+        
+        
+        let request = UNNotificationRequest( identifier: "Identifier", content: content, trigger: triger)
+        
+        UNUserNotificationCenter.current().add(request)  { (error) in
+            
+            print(error as Any)
+        }
+        
+        //Just for testing
+        galleryNotification = true;
     }
-    */
+
 
 }
