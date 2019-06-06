@@ -8,14 +8,26 @@
 
 import UIKit
 
+//notification
+import UserNotifications
+
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate  {
+    
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
+        [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //notification
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (authorized:Bool, error:Error?) in
+            print(authorized)
+            if !authorized {
+                print("App is useless because you did not allow notifications.")
+            }
+        }
         return true
     }
 

@@ -9,6 +9,20 @@
 // Third landing page - input name and pass
 
 import UIKit
+import UserNotifications
+
+extension ThirdPageViewController : UNUserNotificationCenterDelegate {
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification:
+        UNNotification, withCompletionHandler completionHandler: @escaping
+        (UNNotificationPresentationOptions) -> Void) {
+        
+        
+        completionHandler([.alert, .sound, .badge])
+        
+    }
+}
+
 
 class ThirdPageViewController: UIViewController, UITextFieldDelegate {
 
@@ -44,6 +58,9 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         
         ContinueAndSync.isEnabled = false;
         continueWithoutSync.isEnabled = false;
+        
+        //notification
+        UNUserNotificationCenter.current().delegate = self
     }
     
 
@@ -66,8 +83,13 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    //give the notification only once
+    var passwordNotification = true;
+    
     @IBAction func OnTouchPass(_ sender: Any) {
-        
+        if passwordNotification {
+            createPasswordNotification()
+        }
     }
     
     @IBAction func OnTypePass(_ sender: Any) {
@@ -117,6 +139,55 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         //After that we go to the textfiled, ctrl + click it and drug the blue arrow to the yellow symbol of the view controller. and select -"delegete"
         
         return true
+    }
+    
+    func createPasswordNotification() {
+        
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Choose your password carefully"
+        content.subtitle = "Be Careful"
+        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.sound = UNNotificationSound.default
+        
+        print(content)
+        
+        let triger = UNTimeIntervalNotificationTrigger(timeInterval: 0.5, repeats: false)
+        
+        
+        let request = UNNotificationRequest( identifier: "Identifier", content: content, trigger: triger)
+        
+        UNUserNotificationCenter.current().add(request)  { (error) in
+            
+            print(error as Any)
+        }
+        
+        //Just for testing
+        passwordNotification = true;
+    }
+    
+    func createContactsNotification() {
+        
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Consequences of syncing contacts"
+        content.subtitle = "Be Careful!"
+        content.body = "Potential risks and data privacy "
+        content.sound = UNNotificationSound.default
+        
+        print(content)
+        
+        let triger = UNTimeIntervalNotificationTrigger(timeInterval: 0.5, repeats: false)
+        
+        
+        let request = UNNotificationRequest( identifier: "Identifier", content: content, trigger: triger)
+        
+        UNUserNotificationCenter.current().add(request)  { (error) in
+            
+            print(error as Any)
+        }
+        
+        
     }
     
     
