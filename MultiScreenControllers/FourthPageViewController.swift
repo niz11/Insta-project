@@ -24,7 +24,6 @@ class FourthPageViewController: UIViewController {
         super.viewDidLoad()
         //Showing the username
         UserName.text = input_user_name
-        print("Fourth page")
     }
 
 }

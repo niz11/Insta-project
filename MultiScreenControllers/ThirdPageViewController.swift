@@ -48,7 +48,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     
 
     @IBAction func OnClickName(_ sender: Any) {
-        print("HEllo2")
+        
     }
     
     
@@ -67,7 +67,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func OnTouchPass(_ sender: Any) {
-        print("HEllo2")
+        
     }
     
     @IBAction func OnTypePass(_ sender: Any) {
