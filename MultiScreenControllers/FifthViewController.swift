@@ -37,11 +37,11 @@ class FifthViewController: UIViewController {
         
         //Calls notification
         if facebookNotification {
-            createPasswordNotification()
+            createFacebookNotification()
         }
     }
     
-    func createPasswordNotification() {
+    func createFacebookNotification() {
         
         
         let content = UNMutableNotificationContent()

@@ -35,12 +35,12 @@ class SixthViewController: UIViewController {
         
         //Calls notification
         if galleryNotification {
-            createPasswordNotification()
+            createGalleryotification()
         }
         
     }
     
-    func createPasswordNotification() {
+    func createGalleryotification() {
         
         
         let content = UNMutableNotificationContent()
