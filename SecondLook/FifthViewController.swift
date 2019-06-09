@@ -25,6 +25,9 @@ extension FifthViewController : UNUserNotificationCenterDelegate {
 
 class FifthViewController: UIViewController {
     @IBOutlet weak var ConnectToFaceBottun: UIButton!
+    @IBOutlet weak var skipOrContinueLabel: UILabel!
+    @IBOutlet weak var skipLabel: UILabel!
+    
     //give the notification only once
     var facebookNotification = true;
     
@@ -36,16 +39,19 @@ class FifthViewController: UIViewController {
         
         //notification
         UNUserNotificationCenter.current().delegate = self
-        
+    }
+    
+    //Connect with facebook is clicked
+    @IBAction func connectWithFacebook(_ sender: Any) {
         //Calls notification
         if facebookNotification {
             createFacebookNotification()
         }
+        skipOrContinueLabel.text = "Continue"
+        skipLabel.alpha = 1
     }
     
     func createFacebookNotification() {
-        
-        
         let content = UNMutableNotificationContent()
         content.title = "Facebook are the bad guys"
         content.subtitle = "Be Careful"

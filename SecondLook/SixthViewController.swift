@@ -31,6 +31,7 @@ class SixthViewController: UIViewController, UINavigationControllerDelegate, UII
 
     @IBOutlet weak var AddPhotoButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var labelSkipToContinue: UILabel!
     
     //Updating the image
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -50,15 +51,16 @@ class SixthViewController: UIViewController, UINavigationControllerDelegate, UII
         AddPhotoButton.layer.cornerRadius = 10
         AddPhotoButton.clipsToBounds = true
         
-        //Calls notification
-        if galleryNotification {
-            createGalleryotification()
-        }
         
     }
     
     //User adds a photo
     @IBAction func addPicture(_ sender: Any) {
+        //Calls notification
+        if galleryNotification {
+            createGalleryotification()
+        }
+        
         let imagePickerController = UIImagePickerController()
         //Current view controller
         imagePickerController.delegate = self
@@ -71,7 +73,7 @@ class SixthViewController: UIViewController, UINavigationControllerDelegate, UII
         //Display viewcontroller
         self.present(imagePickerController, animated: true, completion: nil)
         
-        
+        labelSkipToContinue.text = "Continue"
     }
     
     

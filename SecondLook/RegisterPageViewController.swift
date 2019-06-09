@@ -41,10 +41,12 @@ class RegisterPageViewController: UIViewController, UITextFieldDelegate {
         //Checking if email is valid
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-        NextButton.isEnabled  = emailTest.evaluate(with: Input_Email)
-        
-        //Changing the color of the next button
-        NextButton.alpha = 1
+        //Checking if the email is legal
+        if emailTest.evaluate(with: Input_Email) {
+            NextButton.isEnabled  = true
+            //Changing the color of the next button
+            NextButton.alpha = 1
+        }
         
     }
     //Will run when touching the main screen
