@@ -1,15 +1,15 @@
 //
-//  MultiScreenControllersTests.swift
-//  MultiScreenControllersTests
+//  SecondLookTests.swift
+//  SecondLookTests
 //
 //  Created by Nizan Goldstein on 27.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
 import XCTest
-@testable import MultiScreenControllers
+@testable import SecondLook
 
-class MultiScreenControllersTests: XCTestCase {
+class SecondLookTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

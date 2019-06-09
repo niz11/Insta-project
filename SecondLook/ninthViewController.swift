@@ -1,6 +1,6 @@
 //
 //  ninthViewController.swift
-//  MultiScreenControllers
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 05.06.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MultiScreenControllers.xcodeproj">
+      location = "self:/Users/nizan/Desktop/Udemy/MacDev/MultiScreenControllers/SecondLook.xcodeproj">
    </FileRef>
 </Workspace>

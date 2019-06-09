@@ -1,13 +1,13 @@
 //
 //  ViewController.swift
-//  MultiScreenControllers
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 27.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
 /*
- First landing page
+ First landing page - welcome to insta
  */
 /*
  * Password

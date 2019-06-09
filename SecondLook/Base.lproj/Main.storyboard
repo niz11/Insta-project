@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--Fifth View Controller-->
         <scene sceneID="79t-P6-Tlb">
             <objects>
-                <viewController id="JoB-R8-QtR" customClass="FifthViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JoB-R8-QtR" customClass="FifthViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Bt-Xo-3ku">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,7 +153,7 @@
         <!--Sixth View Controller-->
         <scene sceneID="TPY-cy-bIr">
             <objects>
-                <viewController id="Tcg-Yo-owt" customClass="SixthViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tcg-Yo-owt" customClass="SixthViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bUP-C3-NDG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +180,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="pON-Uj-nbL" kind="show" id="m0o-u4-krN"/>
+                                    <action selector="addPicture:" destination="Tcg-Yo-owt" eventType="touchUpInside" id="AWs-Rv-aGc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-qf-QiH">
@@ -216,12 +216,17 @@
                                     <segue destination="pON-Uj-nbL" kind="show" id="Dgp-ca-Gur"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27K-fp-ZZl">
+                                <rect key="frame" x="26" y="546" width="362" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6N9-3J-ug6"/>
                     </view>
                     <connections>
                         <outlet property="AddPhotoButton" destination="PXd-3S-36X" id="vEU-sb-SJG"/>
+                        <outlet property="imageView" destination="27K-fp-ZZl" id="tLY-uV-sEq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LwO-Wx-UWy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -231,7 +236,7 @@
         <!--Seventh View Controller-->
         <scene sceneID="EEq-9g-YrH">
             <objects>
-                <viewController id="pON-Uj-nbL" customClass="seventhViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pON-Uj-nbL" customClass="seventhViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w1g-bD-0hS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,7 +276,7 @@
         <!--Video-->
         <scene sceneID="4bx-oO-NmY">
             <objects>
-                <viewController id="7bE-Rz-kKd" customClass="tenthViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7bE-Rz-kKd" customClass="tenthViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hc1-Ep-Nbb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,7 +315,7 @@
         <!--Photo-->
         <scene sceneID="DfZ-rj-hw9">
             <objects>
-                <viewController id="jEo-t4-kbb" customClass="ninthViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jEo-t4-kbb" customClass="ninthViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RgX-bL-Thm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -409,7 +414,7 @@
         <!--Eighth View Controller-->
         <scene sceneID="gLa-no-riJ">
             <objects>
-                <viewController id="nEs-Bm-afV" customClass="EighthViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nEs-Bm-afV" customClass="EighthViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gnq-la-51X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -478,7 +483,7 @@
         <!--Second View Controller-->
         <scene sceneID="apY-FT-a1j">
             <objects>
-                <viewController id="qwg-1C-mSC" customClass="SecondViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qwg-1C-mSC" customClass="SecondViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBM-Th-gif">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,7 +531,7 @@
         <!--Title-->
         <scene sceneID="H1Q-FZ-d9t">
             <objects>
-                <viewController id="Fhi-p5-HSV" customClass="ThirdPageViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fhi-p5-HSV" customClass="ThirdPageViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qRY-Co-kX1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -655,7 +660,7 @@
         <!--Fourth Page View Controller-->
         <scene sceneID="fwV-Bj-spS">
             <objects>
-                <viewController id="I4b-3N-Mgn" customClass="FourthPageViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I4b-3N-Mgn" customClass="FourthPageViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qAU-Js-1A9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -739,7 +744,7 @@
         <!--Title-->
         <scene sceneID="PXR-hN-3Uj">
             <objects>
-                <viewController id="66J-gc-bcc" customClass="RegisterPageViewController" customModule="MultiScreenControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="66J-gc-bcc" customClass="RegisterPageViewController" customModule="SecondLook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m5l-C4-PkK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -818,9 +823,9 @@
         <segue reference="FA3-pL-ZZe"/>
         <segue reference="2hH-yR-nbB"/>
         <segue reference="xRW-3r-YDB"/>
-        <segue reference="x5U-GG-7e8"/>
+        <segue reference="Dgp-ca-Gur"/>
         <segue reference="flx-5Z-SWM"/>
-        <segue reference="jEh-gU-Uth"/>
+        <segue reference="rAt-r1-NQz"/>
         <segue reference="Dov-Pb-BW4"/>
     </inferredMetricsTieBreakers>
 </document>

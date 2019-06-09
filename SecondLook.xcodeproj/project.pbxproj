@@ -43,14 +43,14 @@
 			containerPortal = B8DA3C22229BCC3D001FF10B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B8DA3C29229BCC3D001FF10B;
-			remoteInfo = MultiScreenControllers;
+			remoteInfo = SecondLook;
 		};
 		B8DA3C4A229BCC3E001FF10B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B8DA3C22229BCC3D001FF10B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B8DA3C29229BCC3D001FF10B;
-			remoteInfo = MultiScreenControllers;
+			remoteInfo = SecondLook;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -75,17 +75,17 @@
 		B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome_to_Insta.jpg; sourceTree = "<group>"; };
 		B8A85BDE22A649D800E83437 /* follow_iamge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = follow_iamge.jpg; sourceTree = "<group>"; };
 		B8A85BE022A64EAB00E83437 /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
-		B8DA3C2A229BCC3D001FF10B /* MultiScreenControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScreenControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DA3C2A229BCC3D001FF10B /* SecondLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DA3C2F229BCC3D001FF10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8DA3C32229BCC3D001FF10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8DA3C34229BCC3E001FF10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8DA3C37229BCC3E001FF10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8DA3C39229BCC3E001FF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8DA3C3E229BCC3E001FF10B /* MultiScreenControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DA3C3E229BCC3E001FF10B /* SecondLookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondLookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C42229BCC3E001FF10B /* MultiScreenControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiScreenControllersTests.swift; sourceTree = "<group>"; };
 		B8DA3C44229BCC3E001FF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8DA3C49229BCC3E001FF10B /* MultiScreenControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DA3C49229BCC3E001FF10B /* SecondLookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondLookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C4D229BCC3E001FF10B /* MultiScreenControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiScreenControllersUITests.swift; sourceTree = "<group>"; };
 		B8DA3C4F229BCC3E001FF10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DA3C5B229BCD60001FF10B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 		B8DA3C21229BCC3D001FF10B = {
 			isa = PBXGroup;
 			children = (
-				B8DA3C2C229BCC3D001FF10B /* MultiScreenControllers */,
-				B8DA3C41229BCC3E001FF10B /* MultiScreenControllersTests */,
-				B8DA3C4C229BCC3E001FF10B /* MultiScreenControllersUITests */,
+				B8DA3C2C229BCC3D001FF10B /* SecondLook */,
+				B8DA3C41229BCC3E001FF10B /* SecondLookTests */,
+				B8DA3C4C229BCC3E001FF10B /* SecondLookUITests */,
 				B8DA3C2B229BCC3D001FF10B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,14 +129,14 @@
 		B8DA3C2B229BCC3D001FF10B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8DA3C2A229BCC3D001FF10B /* MultiScreenControllers.app */,
-				B8DA3C3E229BCC3E001FF10B /* MultiScreenControllersTests.xctest */,
-				B8DA3C49229BCC3E001FF10B /* MultiScreenControllersUITests.xctest */,
+				B8DA3C2A229BCC3D001FF10B /* SecondLook.app */,
+				B8DA3C3E229BCC3E001FF10B /* SecondLookTests.xctest */,
+				B8DA3C49229BCC3E001FF10B /* SecondLookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8DA3C2C229BCC3D001FF10B /* MultiScreenControllers */ = {
+		B8DA3C2C229BCC3D001FF10B /* SecondLook */ = {
 			isa = PBXGroup;
 			children = (
 				B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */,
@@ -167,33 +167,33 @@
 				B835B32022A84014007D5B16 /* ninthViewController.swift */,
 				B835B32222A84039007D5B16 /* tenthViewController.swift */,
 			);
-			path = MultiScreenControllers;
+			path = SecondLook;
 			sourceTree = "<group>";
 		};
-		B8DA3C41229BCC3E001FF10B /* MultiScreenControllersTests */ = {
+		B8DA3C41229BCC3E001FF10B /* SecondLookTests */ = {
 			isa = PBXGroup;
 			children = (
 				B8DA3C42229BCC3E001FF10B /* MultiScreenControllersTests.swift */,
 				B8DA3C44229BCC3E001FF10B /* Info.plist */,
 			);
-			path = MultiScreenControllersTests;
+			path = SecondLookTests;
 			sourceTree = "<group>";
 		};
-		B8DA3C4C229BCC3E001FF10B /* MultiScreenControllersUITests */ = {
+		B8DA3C4C229BCC3E001FF10B /* SecondLookUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B8DA3C4D229BCC3E001FF10B /* MultiScreenControllersUITests.swift */,
 				B8DA3C4F229BCC3E001FF10B /* Info.plist */,
 			);
-			path = MultiScreenControllersUITests;
+			path = SecondLookUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8DA3C29229BCC3D001FF10B /* MultiScreenControllers */ = {
+		B8DA3C29229BCC3D001FF10B /* SecondLook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8DA3C52229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllers" */;
+			buildConfigurationList = B8DA3C52229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLook" */;
 			buildPhases = (
 				B8DA3C26229BCC3D001FF10B /* Sources */,
 				B8DA3C27229BCC3D001FF10B /* Frameworks */,
@@ -203,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = MultiScreenControllers;
-			productName = MultiScreenControllers;
-			productReference = B8DA3C2A229BCC3D001FF10B /* MultiScreenControllers.app */;
+			name = SecondLook;
+			productName = SecondLook;
+			productReference = B8DA3C2A229BCC3D001FF10B /* SecondLook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B8DA3C3D229BCC3E001FF10B /* MultiScreenControllersTests */ = {
+		B8DA3C3D229BCC3E001FF10B /* SecondLookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8DA3C55229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllersTests" */;
+			buildConfigurationList = B8DA3C55229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLookTests" */;
 			buildPhases = (
 				B8DA3C3A229BCC3E001FF10B /* Sources */,
 				B8DA3C3B229BCC3E001FF10B /* Frameworks */,
@@ -221,14 +221,14 @@
 			dependencies = (
 				B8DA3C40229BCC3E001FF10B /* PBXTargetDependency */,
 			);
-			name = MultiScreenControllersTests;
-			productName = MultiScreenControllersTests;
-			productReference = B8DA3C3E229BCC3E001FF10B /* MultiScreenControllersTests.xctest */;
+			name = SecondLookTests;
+			productName = SecondLookTests;
+			productReference = B8DA3C3E229BCC3E001FF10B /* SecondLookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B8DA3C48229BCC3E001FF10B /* MultiScreenControllersUITests */ = {
+		B8DA3C48229BCC3E001FF10B /* SecondLookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8DA3C58229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllersUITests" */;
+			buildConfigurationList = B8DA3C58229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLookUITests" */;
 			buildPhases = (
 				B8DA3C45229BCC3E001FF10B /* Sources */,
 				B8DA3C46229BCC3E001FF10B /* Frameworks */,
@@ -239,9 +239,9 @@
 			dependencies = (
 				B8DA3C4B229BCC3E001FF10B /* PBXTargetDependency */,
 			);
-			name = MultiScreenControllersUITests;
-			productName = MultiScreenControllersUITests;
-			productReference = B8DA3C49229BCC3E001FF10B /* MultiScreenControllersUITests.xctest */;
+			name = SecondLookUITests;
+			productName = SecondLookUITests;
+			productReference = B8DA3C49229BCC3E001FF10B /* SecondLookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8DA3C25229BCC3D001FF10B /* Build configuration list for PBXProject "MultiScreenControllers" */;
+			buildConfigurationList = B8DA3C25229BCC3D001FF10B /* Build configuration list for PBXProject "SecondLook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8DA3C29229BCC3D001FF10B /* MultiScreenControllers */,
-				B8DA3C3D229BCC3E001FF10B /* MultiScreenControllersTests */,
-				B8DA3C48229BCC3E001FF10B /* MultiScreenControllersUITests */,
+				B8DA3C29229BCC3D001FF10B /* SecondLook */,
+				B8DA3C3D229BCC3E001FF10B /* SecondLookTests */,
+				B8DA3C48229BCC3E001FF10B /* SecondLookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -366,12 +366,12 @@
 /* Begin PBXTargetDependency section */
 		B8DA3C40229BCC3E001FF10B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B8DA3C29229BCC3D001FF10B /* MultiScreenControllers */;
+			target = B8DA3C29229BCC3D001FF10B /* SecondLook */;
 			targetProxy = B8DA3C3F229BCC3E001FF10B /* PBXContainerItemProxy */;
 		};
 		B8DA3C4B229BCC3E001FF10B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B8DA3C29229BCC3D001FF10B /* MultiScreenControllers */;
+			target = B8DA3C29229BCC3D001FF10B /* SecondLook */;
 			targetProxy = B8DA3C4A229BCC3E001FF10B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -517,12 +517,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllers/Info.plist;
+				INFOPLIST_FILE = SecondLook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,12 +534,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllers/Info.plist;
+				INFOPLIST_FILE = SecondLook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,17 +552,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllersTests/Info.plist;
+				INFOPLIST_FILE = SecondLookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenControllers.app/MultiScreenControllers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondLook.app/SecondLook";
 			};
 			name = Debug;
 		};
@@ -572,17 +572,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllersTests/Info.plist;
+				INFOPLIST_FILE = SecondLookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreenControllers.app/MultiScreenControllers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondLook.app/SecondLook";
 			};
 			name = Release;
 		};
@@ -591,17 +591,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllersUITests/Info.plist;
+				INFOPLIST_FILE = SecondLookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultiScreenControllers;
+				TEST_TARGET_NAME = SecondLook;
 			};
 			name = Debug;
 		};
@@ -610,24 +610,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MultiScreenControllersUITests/Info.plist;
+				INFOPLIST_FILE = SecondLookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.MultiScreenControllersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nizan.SecondLookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultiScreenControllers;
+				TEST_TARGET_NAME = SecondLook;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8DA3C25229BCC3D001FF10B /* Build configuration list for PBXProject "MultiScreenControllers" */ = {
+		B8DA3C25229BCC3D001FF10B /* Build configuration list for PBXProject "SecondLook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8DA3C50229BCC3E001FF10B /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8DA3C52229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllers" */ = {
+		B8DA3C52229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8DA3C53229BCC3E001FF10B /* Debug */,
@@ -645,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8DA3C55229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllersTests" */ = {
+		B8DA3C55229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8DA3C56229BCC3E001FF10B /* Debug */,
@@ -654,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8DA3C58229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "MultiScreenControllersUITests" */ = {
+		B8DA3C58229BCC3E001FF10B /* Build configuration list for PBXNativeTarget "SecondLookUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8DA3C59229BCC3E001FF10B /* Debug */,

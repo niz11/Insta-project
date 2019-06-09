@@ -1,15 +1,18 @@
 //
-//  FifthViewController.swift
-//  MultiScreenControllers
+//  FourthPageViewController.swift
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 30.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
+// Fourth landing page, welcome and agree to Terms
+
 import UIKit
 import UserNotifications
 
-extension FifthViewController : UNUserNotificationCenterDelegate {
+
+extension FourthPageViewController : UNUserNotificationCenterDelegate {
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification:
         UNNotification, withCompletionHandler completionHandler: @escaping
@@ -21,31 +24,37 @@ extension FifthViewController : UNUserNotificationCenterDelegate {
     }
 }
 
-class FifthViewController: UIViewController {
-    @IBOutlet weak var ConnectToFaceBottun: UIButton!
+class FourthPageViewController: UIViewController {
+    @IBOutlet weak var NextButton: UIButton!
+    
+    @IBOutlet weak var UserName: UILabel!
+    var input_user_name = String()
+    
     //give the notification only once
-    var facebookNotification = true;
+    var termsConditionsNotification = true;
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         //Changing style of buttons
-        ConnectToFaceBottun.layer.cornerRadius = 10
-        ConnectToFaceBottun.clipsToBounds = true
+        NextButton.layer.cornerRadius = 10
+        NextButton.clipsToBounds = true
+        
+        super.viewDidLoad()
+        //Showing the username
+        UserName.text = input_user_name
         
         //notification
         UNUserNotificationCenter.current().delegate = self
         
-        //Calls notification
-        if facebookNotification {
-            createFacebookNotification()
+        if termsConditionsNotification {
+            createTermsConditionsNotification()
         }
     }
     
-    func createFacebookNotification() {
+    func createTermsConditionsNotification() {
         
         
         let content = UNMutableNotificationContent()
-        content.title = "Facebook are the bad guys"
+        content.title = "Take a look down the page, you sign here a constarct"
         content.subtitle = "Be Careful"
         content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
         
@@ -64,7 +73,7 @@ class FifthViewController: UIViewController {
         }
         
         //Just for testing
-        facebookNotification = true;
+        termsConditionsNotification = true;
     }
 
 }

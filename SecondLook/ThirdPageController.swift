@@ -1,14 +1,14 @@
 //
-//  tenthViewController.swift
-//  MultiScreenControllers
+//  ThirdPageController.swift
+//  SecondLook
 //
-//  Created by Nizan Goldstein on 05.06.19.
+//  Created by Nizan Goldstein on 28.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
 
 import UIKit
 
-class tenthViewController: UIViewController {
+class ThirdPageController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

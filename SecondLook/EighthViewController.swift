@@ -1,6 +1,6 @@
 //
 //  EighthViewController.swift
-//  MultiScreenControllers
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 04.06.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.

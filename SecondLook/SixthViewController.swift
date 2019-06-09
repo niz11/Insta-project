@@ -1,10 +1,12 @@
 //
 //  SixthViewController.swift
-//  MultiScreenControllers
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 30.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
 //
+// Sixth landing page, Add profile picture page
+
 
 import UIKit
 import UserNotifications
@@ -20,12 +22,27 @@ extension SixthViewController : UNUserNotificationCenterDelegate {
         
     }
 }
+//UINavigationControllerDelegate - allow our app to jump to other apps
+//UIImagePickerControllerDelegate - allow user to pick images
 
-class SixthViewController: UIViewController {
+class SixthViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     //give the notification only once
     var galleryNotification = true;
 
     @IBOutlet weak var AddPhotoButton: UIButton!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    //Updating the image
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        //User finished picking an image
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
+            imageView.image = image
+        } else{
+            print("Had a problem getting the image")
+        }
+        
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +57,29 @@ class SixthViewController: UIViewController {
         
     }
     
-    func createGalleryotification() {
+    //User adds a photo
+    @IBAction func addPicture(_ sender: Any) {
+        let imagePickerController = UIImagePickerController()
+        //Current view controller
+        imagePickerController.delegate = self
         
+        //Can change photoLibrary to camera and then it will accesses the camera
+        imagePickerController.sourceType = UIImagePickerController.SourceType.photoLibrary
+    
+        imagePickerController.allowsEditing = false
+        
+        //Display viewcontroller
+        self.present(imagePickerController, animated: true, completion: nil)
+        
+        
+    }
+    
+    
+    
+    
+    
+    //Notification function
+    func createGalleryotification() {
         
         let content = UNMutableNotificationContent()
         content.title = "What about your dickpics?"

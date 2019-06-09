@@ -1,6 +1,6 @@
 //
 //  ThirdPageViewController.swift
-//  MultiScreenControllers
+//  SecondLook
 //
 //  Created by Nizan Goldstein on 28.05.19.
 //  Copyright © 2019 Nizan Goldstein. All rights reserved.
@@ -76,6 +76,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
             continueWithoutSync.isEnabled = true;
+            createContactsNotification()
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;
@@ -99,6 +100,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
             continueWithoutSync.isEnabled = true;
+            createContactsNotification()
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;

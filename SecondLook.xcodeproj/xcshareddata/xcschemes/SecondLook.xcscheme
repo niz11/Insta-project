@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8DA3C29229BCC3D001FF10B"
-               BuildableName = "MultiScreenControllers.app"
-               BlueprintName = "MultiScreenControllers"
-               ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+               BuildableName = "SecondLook.app"
+               BlueprintName = "SecondLook"
+               ReferencedContainer = "container:SecondLook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8DA3C3D229BCC3E001FF10B"
-               BuildableName = "MultiScreenControllersTests.xctest"
-               BlueprintName = "MultiScreenControllersTests"
-               ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+               BuildableName = "SecondLookTests.xctest"
+               BlueprintName = "SecondLookTests"
+               ReferencedContainer = "container:SecondLook.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8DA3C48229BCC3E001FF10B"
-               BuildableName = "MultiScreenControllersUITests.xctest"
-               BlueprintName = "MultiScreenControllersUITests"
-               ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+               BuildableName = "SecondLookUITests.xctest"
+               BlueprintName = "SecondLookUITests"
+               ReferencedContainer = "container:SecondLook.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8DA3C29229BCC3D001FF10B"
-            BuildableName = "MultiScreenControllers.app"
-            BlueprintName = "MultiScreenControllers"
-            ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+            BuildableName = "SecondLook.app"
+            BlueprintName = "SecondLook"
+            ReferencedContainer = "container:SecondLook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8DA3C29229BCC3D001FF10B"
-            BuildableName = "MultiScreenControllers.app"
-            BlueprintName = "MultiScreenControllers"
-            ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+            BuildableName = "SecondLook.app"
+            BlueprintName = "SecondLook"
+            ReferencedContainer = "container:SecondLook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -106,9 +106,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8DA3C29229BCC3D001FF10B"
-            BuildableName = "MultiScreenControllers.app"
-            BlueprintName = "MultiScreenControllers"
-            ReferencedContainer = "container:MultiScreenControllers.xcodeproj">
+            BuildableName = "SecondLook.app"
+            BlueprintName = "SecondLook"
+            ReferencedContainer = "container:SecondLook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
