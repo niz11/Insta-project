@@ -327,6 +327,13 @@
                                 <rect key="frame" x="89" y="652" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baW-Cl-SSR">
+                                <rect key="frame" x="146" y="652" width="125" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="record:" destination="7bE-Rz-kKd" eventType="touchUpInside" id="yNx-d3-ILa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FZ9-QE-ziS"/>
@@ -848,7 +855,7 @@
         <segue reference="FA3-pL-ZZe"/>
         <segue reference="6H1-uD-1bl"/>
         <segue reference="xRW-3r-YDB"/>
-        <segue reference="Dgp-ca-Gur"/>
+        <segue reference="a72-4c-HFT"/>
         <segue reference="YwK-Ax-0mh"/>
         <segue reference="rAt-r1-NQz"/>
         <segue reference="Dov-Pb-BW4"/>
