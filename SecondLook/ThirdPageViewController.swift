@@ -149,13 +149,13 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     func createPasswordNotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "Choose your password carefully"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.title = "Choose your password wisely"
+        content.subtitle = ""
+        content.body = "The authenticaion with username and password always has a potential risk of application attacks.\nTo make your password more secure here are find some tips: \n* Use at least 12 characters \n* Mix numbers, symbols and uppercase letters \n* Do not use dictionary words, e.g. 'Red house' \n* Do not reuse passwords \n* Use a password generator"
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "password"
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpeg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
         content.attachments = [attachment]
@@ -191,14 +191,14 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         
         
         let content = UNMutableNotificationContent()
-        content.title = "Consequences of syncing contacts"
-        content.subtitle = "Be Careful!"
-        content.body = "Potential risks and data privacy "
+        content.title = "Think twice about the contact permission"
+        content.subtitle = ""
+        content.body = "When you connect Instagram with your device's contact list you will be able to find easily new contacts to follow, but in this way Instagram will store and periodically sync your local saved information about your contact list. Note, that you can delete all your contacts and stop syncing them from Instagram at anytime. \nFor information how to do this, visit:\nhttps://help.instagram.com/227486307449481?helpref=search&sr=3&query=contacts "
         content.categoryIdentifier = "Contacts"
         
         ////// Adding an image to the notificatoin
-        let imageName = "_User_Man_Circle-512"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "contacts"
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
 
         content.attachments = [attachment]

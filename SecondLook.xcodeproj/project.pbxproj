@@ -27,6 +27,14 @@
 		B8A85BDD22A648ED00E83437 /* Welcome_to_Insta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */; };
 		B8A85BDF22A649D800E83437 /* follow_iamge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8A85BDE22A649D800E83437 /* follow_iamge.jpg */; };
 		B8A85BE122A64EAB00E83437 /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A85BE022A64EAB00E83437 /* EighthViewController.swift */; };
+		B8BF871C22B0D55300066667 /* password.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF871B22B0D55200066667 /* password.jpeg */; };
+		B8BF871E22B0D74F00066667 /* contacts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF871D22B0D74F00066667 /* contacts.jpg */; };
+		B8BF872022B0D88500066667 /* terms.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BF871F22B0D88500066667 /* terms.png */; };
+		B8BF872222B0DA4300066667 /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872122B0DA4300066667 /* facebook.jpg */; };
+		B8BF872422B0DB8000066667 /* pictures.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872322B0DB7F00066667 /* pictures.jpg */; };
+		B8BF872622B0DCCA00066667 /* location-new.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872522B0DCCA00066667 /* location-new.jpeg */; };
+		B8BF872822B0DEB800066667 /* camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872722B0DEB800066667 /* camera.jpg */; };
+		B8BF872A22B0DFF800066667 /* mic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872922B0DFF700066667 /* mic.jpg */; };
 		B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */; };
 		B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2F229BCC3D001FF10B /* ViewController.swift */; };
 		B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3C31229BCC3D001FF10B /* Main.storyboard */; };
@@ -75,6 +83,14 @@
 		B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome_to_Insta.jpg; sourceTree = "<group>"; };
 		B8A85BDE22A649D800E83437 /* follow_iamge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = follow_iamge.jpg; sourceTree = "<group>"; };
 		B8A85BE022A64EAB00E83437 /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
+		B8BF871B22B0D55200066667 /* password.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = password.jpeg; sourceTree = "<group>"; };
+		B8BF871D22B0D74F00066667 /* contacts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contacts.jpg; sourceTree = "<group>"; };
+		B8BF871F22B0D88500066667 /* terms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terms.png; sourceTree = "<group>"; };
+		B8BF872122B0DA4300066667 /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpg; sourceTree = "<group>"; };
+		B8BF872322B0DB7F00066667 /* pictures.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pictures.jpg; sourceTree = "<group>"; };
+		B8BF872522B0DCCA00066667 /* location-new.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "location-new.jpeg"; sourceTree = "<group>"; };
+		B8BF872722B0DEB800066667 /* camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpg; sourceTree = "<group>"; };
+		B8BF872922B0DFF700066667 /* mic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mic.jpg; sourceTree = "<group>"; };
 		B8DA3C2A229BCC3D001FF10B /* SecondLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DA3C2F229BCC3D001FF10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +170,14 @@
 				B87293B0229DCDA200CD141B /* _User_Man_Circle-512.png */,
 				B8A85BDE22A649D800E83437 /* follow_iamge.jpg */,
 				B8A85BDC22A648ED00E83437 /* Welcome_to_Insta.jpg */,
+				B8BF871B22B0D55200066667 /* password.jpeg */,
+				B8BF871D22B0D74F00066667 /* contacts.jpg */,
+				B8BF871F22B0D88500066667 /* terms.png */,
+				B8BF872122B0DA4300066667 /* facebook.jpg */,
+				B8BF872322B0DB7F00066667 /* pictures.jpg */,
+				B8BF872522B0DCCA00066667 /* location-new.jpeg */,
+				B8BF872722B0DEB800066667 /* camera.jpg */,
+				B8BF872922B0DFF700066667 /* mic.jpg */,
 				B8DA3C34229BCC3E001FF10B /* Assets.xcassets */,
 				B8DA3C36229BCC3E001FF10B /* LaunchScreen.storyboard */,
 				B8DA3C39229BCC3E001FF10B /* Info.plist */,
@@ -292,9 +316,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BF872022B0D88500066667 /* terms.png in Resources */,
 				B87293AF229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png in Resources */,
 				B806988522A00B9200A2B6DE /* instagram_welcome_page2.png in Resources */,
+				B8BF872222B0DA4300066667 /* facebook.jpg in Resources */,
 				B8562308229C62A70055ED7F /* 1200px-Instagram_logo.svg.png in Resources */,
+				B8BF872622B0DCCA00066667 /* location-new.jpeg in Resources */,
 				B806987B22A001D800A2B6DE /* add_friend_icon.jpg in Resources */,
 				B87293B3229DD10300CD141B /* icon-man.png in Resources */,
 				B806987F22A0058800A2B6DE /* camera_icon.png in Resources */,
@@ -302,10 +329,15 @@
 				B8DA3C38229BCC3E001FF10B /* LaunchScreen.storyboard in Resources */,
 				B8A85BDD22A648ED00E83437 /* Welcome_to_Insta.jpg in Resources */,
 				B87293B1229DCDA200CD141B /* _User_Man_Circle-512.png in Resources */,
+				B8BF871E22B0D74F00066667 /* contacts.jpg in Resources */,
+				B8BF871C22B0D55300066667 /* password.jpeg in Resources */,
+				B8BF872822B0DEB800066667 /* camera.jpg in Resources */,
 				B8A85BDB22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg in Resources */,
+				B8BF872422B0DB8000066667 /* pictures.jpg in Resources */,
 				B8DA3C35229BCC3E001FF10B /* Assets.xcassets in Resources */,
 				B8A85BD922A646EF00E83437 /* instagram_welcome_page_upperbar.jpg in Resources */,
 				B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */,
+				B8BF872A22B0DFF800066667 /* mic.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

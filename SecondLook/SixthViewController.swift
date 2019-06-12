@@ -85,12 +85,12 @@ class SixthViewController: UIViewController, UINavigationControllerDelegate, UII
         
         let content = UNMutableNotificationContent()
         content.title = "What about your dickpics?"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.subtitle = ""
+        content.body = "Because the Instagram app is all about sharing photos and videos you have to agree, that the app can use your devices gallery. Be aware, that by giving this access and by uploading content in the app your personal data can be manage from Instagram as  described in the Data Policy."
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "pictures"
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
         content.attachments = [attachment]

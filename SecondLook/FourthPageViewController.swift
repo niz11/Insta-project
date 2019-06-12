@@ -54,12 +54,12 @@ class FourthPageViewController: UIViewController {
         
         
         let content = UNMutableNotificationContent()
-        content.title = "Take a look down the page, you sign here a constarct"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.title = "Take a second look down the page"
+        content.subtitle = ""
+        content.body = "As Instagram user you have to agree to the Terms & Privacy Policy before you create your Instagram account. When you agree with this terms you give permission to Insagram to collect, keep, analyze, share and transfer your data in particular way, which is described in the documents. We advice you to read this terms carefully, or at least look the summary from Terms of Serveice; \nSummary - https://tosdr.org/#instagram"
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
+        let imageName = "terms"
         guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         

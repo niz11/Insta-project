@@ -28,18 +28,21 @@ class tenthViewController: UIViewController {
     var RecordNotification = true
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func TakeVideoEvent(_ sender: Any) {
         createMicNotification()
     }
     //Notification function
     func createMicNotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "What about your dickpics?"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.title = "The Mic is always in your pocket"
+        content.subtitle = ""
+        content.body = "Instagram provide you also the activity to share live photos and videos. By using this service the app maintain your camera and microphone. Please note, that after you finish the distribution of the live content Instagram can still use your devices properties on the background. So always make sure, that after such activity everything is closed!"
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
+        let imageName = "mic"
         guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         

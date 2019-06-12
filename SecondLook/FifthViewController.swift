@@ -53,13 +53,13 @@ class FifthViewController: UIViewController {
     
     func createFacebookNotification() {
         let content = UNMutableNotificationContent()
-        content.title = "Facebook are the bad guys"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.title = "Connecting Instagram with Facebook?"
+        content.subtitle = ""
+        content.body = "Instagram offers you the possibility to connect to the account your Facebook profile. By doing this the data that will be shown and used from Instagram will be linked also with Facebook. And Facebook can use your identity in ads by showing it to other users or provide your personal data to other websites.\nAre you sure about this this?"
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "facebook"
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
         content.attachments = [attachment]

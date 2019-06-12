@@ -35,13 +35,13 @@ class seventhViewController: UIViewController {
     func createLocationNotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "What about your dickpics?"
-        content.subtitle = "Be Careful"
-        content.body = "It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb,It is crucial blablaalbaal importance of pasword most common passwordsbsadhbashdbashdb"
+        content.title = "What about your cat?"
+        content.subtitle = ""
+        content.body = "Be aware, that by giving Instagram access to your location you can always be localized, even if you do not share your location on your posts. Instagram could also have access to the locational data stored from the geo-tagging (the process of adding geographical identification metadata to various media) and use that data for marketing purposes. \nIf you really want to share your location on a post, another more safe option will be to use hashtag (e.g. #berlin) in the description of the post."
         
         ////// Adding an image to the notificatoin
-        let imageName = "icon-man"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        let imageName = "location-new"
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpeg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
         content.attachments = [attachment]
