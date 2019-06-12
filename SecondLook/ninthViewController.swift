@@ -48,10 +48,9 @@ class ninthViewController: UIViewController {
     func createCameraNotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "Camera"
+        content.title = "Give me the access to your camera"
         content.subtitle = ""
-        content.body = ""
-        
+        content.body = "In order to use the complete variety of services, that Instagram has to offer you, you have to give access to your personal camera - both the front and the back one. After giving your agreement the app can observe you live activities, detect if you are alone on your phone, estimate your mood and also localize you based on the image data.\nEven if you deside to give this permission you still can protect yourself by using a camera cover"
         ////// Adding an image to the notificatoin
         let imageName = "camera"
         guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }

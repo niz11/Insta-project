@@ -48,9 +48,9 @@ class tenthViewController: UIViewController {
     func createMicNotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "The Mic is always in your pocket"
+        content.title = "The microphone is always in your pocket"
         content.subtitle = ""
-        content.body = "Instagram provide you also the activity to share live photos and videos. By using this service the app maintain your camera and microphone. Please note, that after you finish the distribution of the live content Instagram can still use your devices properties on the background. So always make sure, that after such activity everything is closed!"
+        content.body = "Instagram provide you also the activity to share live photos and videos. By using this service the app maintain your camera and microphone. When these parts of your device are accessed from Instagram that increases the risk of potential hacker attacks. Instances of possible conseqences are, that you could be recorded at any time the app is in the foreground, runed real-time face recognition to detect your facial features or expressions and even live streamed your camera onto the internet"
         
         ////// Adding an image to the notificatoin
         let imageName = "mic"
