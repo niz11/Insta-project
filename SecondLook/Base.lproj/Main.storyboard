@@ -44,14 +44,6 @@
                                 <rect key="frame" x="87" y="284" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6h-vl-R6c">
-                                <rect key="frame" x="190" y="832" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="pON-Uj-nbL" kind="show" id="x5U-GG-7e8"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.5"/>
@@ -285,14 +277,6 @@
                                 <rect key="frame" x="52" y="360" width="308" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeG-hk-Cd8">
-                                <rect key="frame" x="20" y="730" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Tcg-Yo-owt" kind="show" id="QIZ-Gm-mFu"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhM-YC-4nh">
                                 <rect key="frame" x="52" y="475" width="308" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -914,11 +898,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="1dA-Y8-mGS"/>
-        <segue reference="L64-Ix-blq"/>
+        <segue reference="FA3-pL-ZZe"/>
         <segue reference="Ebm-8d-s4V"/>
         <segue reference="eib-Bo-1ht"/>
         <segue reference="a72-4c-HFT"/>
-        <segue reference="QIZ-Gm-mFu"/>
+        <segue reference="YwK-Ax-0mh"/>
         <segue reference="jEh-gU-Uth"/>
         <segue reference="Dov-Pb-BW4"/>
     </inferredMetricsTieBreakers>
