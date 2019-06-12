@@ -35,6 +35,13 @@
 		B8BF872622B0DCCA00066667 /* location-new.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872522B0DCCA00066667 /* location-new.jpeg */; };
 		B8BF872822B0DEB800066667 /* camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872722B0DEB800066667 /* camera.jpg */; };
 		B8BF872A22B0DFF800066667 /* mic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872922B0DFF700066667 /* mic.jpg */; };
+		B8BF872C22B11B0700066667 /* cameraPermissoin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872B22B11B0700066667 /* cameraPermissoin.jpg */; };
+		B8BF872E22B127E600066667 /* cameraPermissoin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872D22B127E600066667 /* cameraPermissoin2.jpg */; };
+		B8BF873022B129AF00066667 /* micperm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF872F22B129AF00066667 /* micperm.jpg */; };
+		B8BF873222B12FDF00066667 /* micPerm2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF873122B12FDF00066667 /* micPerm2.jpg */; };
+		B8BF873422B137F400066667 /* CameraPerm3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF873322B137F400066667 /* CameraPerm3.jpg */; };
+		B8BF873622B137FE00066667 /* MicPerm3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF873522B137FD00066667 /* MicPerm3.jpg */; };
+		B8BF873822B1380900066667 /* LocatoinPerm3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BF873722B1380900066667 /* LocatoinPerm3.jpg */; };
 		B8DA3C2E229BCC3D001FF10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */; };
 		B8DA3C30229BCC3D001FF10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA3C2F229BCC3D001FF10B /* ViewController.swift */; };
 		B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DA3C31229BCC3D001FF10B /* Main.storyboard */; };
@@ -91,6 +98,13 @@
 		B8BF872522B0DCCA00066667 /* location-new.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "location-new.jpeg"; sourceTree = "<group>"; };
 		B8BF872722B0DEB800066667 /* camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpg; sourceTree = "<group>"; };
 		B8BF872922B0DFF700066667 /* mic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mic.jpg; sourceTree = "<group>"; };
+		B8BF872B22B11B0700066667 /* cameraPermissoin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cameraPermissoin.jpg; sourceTree = "<group>"; };
+		B8BF872D22B127E600066667 /* cameraPermissoin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cameraPermissoin2.jpg; sourceTree = "<group>"; };
+		B8BF872F22B129AF00066667 /* micperm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = micperm.jpg; sourceTree = "<group>"; };
+		B8BF873122B12FDF00066667 /* micPerm2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = micPerm2.jpg; sourceTree = "<group>"; };
+		B8BF873322B137F400066667 /* CameraPerm3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CameraPerm3.jpg; sourceTree = "<group>"; };
+		B8BF873522B137FD00066667 /* MicPerm3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MicPerm3.jpg; sourceTree = "<group>"; };
+		B8BF873722B1380900066667 /* LocatoinPerm3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LocatoinPerm3.jpg; sourceTree = "<group>"; };
 		B8DA3C2A229BCC3D001FF10B /* SecondLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DA3C2D229BCC3D001FF10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DA3C2F229BCC3D001FF10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +192,13 @@
 				B8BF872522B0DCCA00066667 /* location-new.jpeg */,
 				B8BF872722B0DEB800066667 /* camera.jpg */,
 				B8BF872922B0DFF700066667 /* mic.jpg */,
+				B8BF872B22B11B0700066667 /* cameraPermissoin.jpg */,
+				B8BF872D22B127E600066667 /* cameraPermissoin2.jpg */,
+				B8BF872F22B129AF00066667 /* micperm.jpg */,
+				B8BF873122B12FDF00066667 /* micPerm2.jpg */,
+				B8BF873522B137FD00066667 /* MicPerm3.jpg */,
+				B8BF873322B137F400066667 /* CameraPerm3.jpg */,
+				B8BF873722B1380900066667 /* LocatoinPerm3.jpg */,
 				B8DA3C34229BCC3E001FF10B /* Assets.xcassets */,
 				B8DA3C36229BCC3E001FF10B /* LaunchScreen.storyboard */,
 				B8DA3C39229BCC3E001FF10B /* Info.plist */,
@@ -316,6 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BF873822B1380900066667 /* LocatoinPerm3.jpg in Resources */,
+				B8BF872E22B127E600066667 /* cameraPermissoin2.jpg in Resources */,
 				B8BF872022B0D88500066667 /* terms.png in Resources */,
 				B87293AF229DCCC400CD141B /* 26_back_left_arrow_navigation_sign-512.png in Resources */,
 				B806988522A00B9200A2B6DE /* instagram_welcome_page2.png in Resources */,
@@ -323,18 +346,23 @@
 				B8562308229C62A70055ED7F /* 1200px-Instagram_logo.svg.png in Resources */,
 				B8BF872622B0DCCA00066667 /* location-new.jpeg in Resources */,
 				B806987B22A001D800A2B6DE /* add_friend_icon.jpg in Resources */,
+				B8BF872C22B11B0700066667 /* cameraPermissoin.jpg in Resources */,
 				B87293B3229DD10300CD141B /* icon-man.png in Resources */,
 				B806987F22A0058800A2B6DE /* camera_icon.png in Resources */,
 				B8A85BDF22A649D800E83437 /* follow_iamge.jpg in Resources */,
+				B8BF873422B137F400066667 /* CameraPerm3.jpg in Resources */,
 				B8DA3C38229BCC3E001FF10B /* LaunchScreen.storyboard in Resources */,
 				B8A85BDD22A648ED00E83437 /* Welcome_to_Insta.jpg in Resources */,
+				B8BF873622B137FE00066667 /* MicPerm3.jpg in Resources */,
 				B87293B1229DCDA200CD141B /* _User_Man_Circle-512.png in Resources */,
 				B8BF871E22B0D74F00066667 /* contacts.jpg in Resources */,
+				B8BF873022B129AF00066667 /* micperm.jpg in Resources */,
 				B8BF871C22B0D55300066667 /* password.jpeg in Resources */,
 				B8BF872822B0DEB800066667 /* camera.jpg in Resources */,
 				B8A85BDB22A6476C00E83437 /* instagram_welcome_page_lowerbar.jpg in Resources */,
 				B8BF872422B0DB8000066667 /* pictures.jpg in Resources */,
 				B8DA3C35229BCC3E001FF10B /* Assets.xcassets in Resources */,
+				B8BF873222B12FDF00066667 /* micPerm2.jpg in Resources */,
 				B8A85BD922A646EF00E83437 /* instagram_welcome_page_upperbar.jpg in Resources */,
 				B8DA3C33229BCC3D001FF10B /* Main.storyboard in Resources */,
 				B8BF872A22B0DFF800066667 /* mic.jpg in Resources */,

@@ -25,15 +25,24 @@ extension tenthViewController : UNUserNotificationCenterDelegate {
 
 class tenthViewController: UIViewController {
     
+    @IBOutlet weak var MicPermm: UIImageView!
     var RecordNotification = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Image round corners
+        self.MicPermm.layer.cornerRadius = self.MicPermm.frame.size.width / 10
+        MicPermm.alpha = 0
     }
     
     @IBAction func TakeVideoEvent(_ sender: Any) {
         print("Take a video bitch")
+        MicPermm.alpha = 1
         createMicNotification()
+    }
+    
+    @IBAction func takePermAway(_ sender: Any) {
+        MicPermm.alpha = 0
     }
     //Notification function
     func createMicNotification() {

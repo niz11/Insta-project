@@ -26,10 +26,18 @@ class seventhViewController: UIViewController {
     //Just for testing
     var LocationNotification = true;
     
+    @IBOutlet weak var LocationPerm: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.LocationPerm.layer.cornerRadius = self.LocationPerm.frame.size.width / 10
         createLocationNotification()
     }
+    
+    @IBAction func takePermAway(_ sender: Any) {
+        LocationPerm.alpha = 0
+    }
+    
     
     //Notification function
     func createLocationNotification() {

@@ -23,15 +23,26 @@ extension ninthViewController : UNUserNotificationCenterDelegate {
 
 
 class ninthViewController: UIViewController {
+    
+    @IBOutlet weak var CameraPermission: UIImageView!
     //Just for testing
     var LocationNotification = true;
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Image round corners
+        self.CameraPermission.layer.cornerRadius = self.CameraPermission.frame.size.width / 10
+        CameraPermission.alpha = 0
+
     }
     @IBAction func TakePhotoEvent(_ sender: Any) {
          createCameraNotification()
+        CameraPermission.alpha = 1
     }
+    @IBAction func ClosePermissionMessage(_ sender: Any) {
+        CameraPermission.alpha = 0
+    }
+    
     
     //Notification function
     func createCameraNotification() {
