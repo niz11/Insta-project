@@ -26,11 +26,13 @@ extension tenthViewController : UNUserNotificationCenterDelegate {
 class tenthViewController: UIViewController {
     
     var RecordNotification = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func TakeVideoEvent(_ sender: Any) {
+        print("Take a video bitch")
         createMicNotification()
     }
     //Notification function
@@ -43,7 +45,7 @@ class tenthViewController: UIViewController {
         
         ////// Adding an image to the notificatoin
         let imageName = "mic"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "jpg") else { return }
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
         content.attachments = [attachment]
