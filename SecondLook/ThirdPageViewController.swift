@@ -31,6 +31,8 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var ContinueAndSync: UIButton!
     
+    @IBOutlet weak var ContinueLabel: UILabel!
+    
     @IBOutlet weak var continueWithoutSync: UIButton!
     
     var lengthOfUserName = 0
@@ -76,7 +78,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
             continueWithoutSync.isEnabled = true;
-            createContactsNotification()
+            
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;
@@ -100,7 +102,7 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
             ContinueAndSync.alpha = 1
             ContinueAndSync.isEnabled = true;
             continueWithoutSync.isEnabled = true;
-            createContactsNotification()
+            
         } else {
             ContinueAndSync.alpha = 0.6
             ContinueAndSync.isEnabled = false;
@@ -109,9 +111,10 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func OnClickContinue(_ sender: Any) {
-        if ContinueAndSync.isEnabled {
-            performSegue(withIdentifier: "segue", sender: self)
-        }
+        ContinueLabel.alpha = 1
+        ContinueLabel.text = "Continue"
+        createContactsNotification()
+        
     }
     //Pusing values to next view controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -145,7 +148,6 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
     
     func createPasswordNotification() {
         
-        
         let content = UNMutableNotificationContent()
         content.title = "Choose your password carefully"
         content.subtitle = "Be Careful"
@@ -175,6 +177,15 @@ class ThirdPageViewController: UIViewController, UITextFieldDelegate {
         //Just for testing
         passwordNotification = true;
     }
+    
+    @IBAction func asdasd(_ sender: Any) {
+//        if ContinueAndSync.isEnabled {
+//            performSegue(withIdentifier: "segue", sender: self)
+//        }
+        print("hi")
+    }
+    
+    
     
     func createContactsNotification() {
         

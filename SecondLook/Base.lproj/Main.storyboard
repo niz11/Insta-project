@@ -330,9 +330,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baW-Cl-SSR">
                                 <rect key="frame" x="146" y="652" width="125" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="record:" destination="7bE-Rz-kKd" eventType="touchUpInside" id="yNx-d3-ILa"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -376,9 +373,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VD9-hi-9ZW">
                                 <rect key="frame" x="119" y="652" width="175" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="takePhoto:" destination="jEo-t4-kbb" eventType="touchUpInside" id="29Y-31-o0Y"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QrH-gW-UXS">
                                 <rect key="frame" x="20" y="165" width="374" height="389"/>
@@ -389,9 +383,6 @@
                         <viewLayoutGuide key="safeArea" id="1Km-GT-Khx"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Photo" id="1DJ-Gv-Y2q"/>
-                    <connections>
-                        <outlet property="imageView" destination="QrH-gW-UXS" id="M75-X2-PTW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZgF-wb-lxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -612,12 +603,11 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="titleShadowOffset" width="10" height="0.0"/>
-                                <state key="normal" title="Continue and Sync Contacts">
+                                <state key="normal" title="Sync Contacts">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="OnClickContinue:" destination="Fhi-p5-HSV" eventType="touchUpInside" id="6fd-z2-gTU"/>
-                                    <segue destination="I4b-3N-Mgn" kind="show" identifier="segue" id="2hH-yR-nbB"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YW7-SW-wxg">
@@ -634,6 +624,13 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Continue Without Syncing Contacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0A-W8-Cat">
                                 <rect key="frame" x="25" y="440" width="362" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Continue Without Syncing Contacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDJ-43-fKC">
+                                <rect key="frame" x="25" y="472" width="362" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -667,10 +664,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tP2-pk-qWW">
-                                <rect key="frame" x="59" y="458" width="301" height="30"/>
+                                <rect key="frame" x="26" y="456" width="362" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="I4b-3N-Mgn" kind="show" id="o0F-kN-sFL"/>
+                                    <action selector="asdasd:" destination="Fhi-p5-HSV" eventType="touchUpInside" id="jm8-ER-gTy"/>
+                                    <segue destination="I4b-3N-Mgn" kind="show" id="Ebm-8d-s4V"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -680,6 +678,7 @@
                     <navigationItem key="navigationItem" title="Title" id="JWO-N6-zmW"/>
                     <connections>
                         <outlet property="ContinueAndSync" destination="J5W-Bf-XQn" id="r26-va-v8q"/>
+                        <outlet property="ContinueLabel" destination="cDJ-43-fKC" id="o7H-dn-nTc"/>
                         <outlet property="FullNameButton" destination="6kF-kK-M12" id="2am-od-YNe"/>
                         <outlet property="PasswordButton" destination="kCq-am-j6k" id="SZy-gz-im9"/>
                         <outlet property="continueWithoutSync" destination="tP2-pk-qWW" id="Z2u-EJ-r0s"/>
@@ -852,12 +851,12 @@
         <image name="instagram_welcome_page_upperbar.jpg" width="215.52000427246094" height="34.799999237060547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FA3-pL-ZZe"/>
-        <segue reference="6H1-uD-1bl"/>
-        <segue reference="xRW-3r-YDB"/>
-        <segue reference="a72-4c-HFT"/>
+        <segue reference="L64-Ix-blq"/>
+        <segue reference="Ebm-8d-s4V"/>
+        <segue reference="eib-Bo-1ht"/>
+        <segue reference="x5U-GG-7e8"/>
         <segue reference="YwK-Ax-0mh"/>
-        <segue reference="rAt-r1-NQz"/>
+        <segue reference="jEh-gU-Uth"/>
         <segue reference="Dov-Pb-BW4"/>
     </inferredMetricsTieBreakers>
 </document>
