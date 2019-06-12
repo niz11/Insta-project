@@ -27,15 +27,28 @@ class seventhViewController: UIViewController {
     var LocationNotification = true;
     
     @IBOutlet weak var LocationPerm: UIImageView!
+    @IBOutlet weak var backGroundPicture: UIImageView!
+    @IBOutlet weak var backGroundPicture2: UIImageView!
+    @IBOutlet weak var buttomBar: UIImageView!
+    
+    @IBOutlet weak var topMenu: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        backGroundPicture.alpha = 0.3
+        backGroundPicture2.alpha = 0.3
+        buttomBar.alpha = 0.3
+        topMenu.alpha = 0.3
         self.LocationPerm.layer.cornerRadius = self.LocationPerm.frame.size.width / 10
         createLocationNotification()
     }
     
     @IBAction func takePermAway(_ sender: Any) {
         LocationPerm.alpha = 0
+        backGroundPicture.alpha = 1
+        backGroundPicture2.alpha = 1
+        buttomBar.alpha = 1
+        topMenu.alpha = 1
     }
     
     

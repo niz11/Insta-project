@@ -306,6 +306,10 @@
                     </view>
                     <connections>
                         <outlet property="LocationPerm" destination="ixM-uD-zle" id="eyA-yR-BW9"/>
+                        <outlet property="backGroundPicture" destination="yWO-Td-Ozr" id="zXU-P4-QQw"/>
+                        <outlet property="backGroundPicture2" destination="xd4-uQ-7Zs" id="7RC-KL-L3v"/>
+                        <outlet property="buttomBar" destination="JuR-ur-Hnl" id="A44-iK-wVA"/>
+                        <outlet property="topMenu" destination="xd4-uQ-7Zs" id="zba-gR-vXU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UvV-Vo-qqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
