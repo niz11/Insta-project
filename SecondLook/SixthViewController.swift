@@ -84,7 +84,7 @@ class SixthViewController: UIViewController, UINavigationControllerDelegate, UII
     func createGalleryotification() {
         
         let content = UNMutableNotificationContent()
-        content.title = "What about your dickpics?"
+        content.title = "What about your personal photos??"
         content.subtitle = ""
         content.body = "Because the Instagram app is all about sharing photos and videos you have to agree, that the app can use your devices gallery. Be aware, that by giving this access and by uploading content in the app your personal data can be manage from Instagram as  described in the Data Policy."
         

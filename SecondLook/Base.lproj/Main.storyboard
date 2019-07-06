@@ -284,6 +284,13 @@
                                     <action selector="takePermAway:" destination="pON-Uj-nbL" eventType="touchUpInside" id="klv-Vw-6Gt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDB-Qb-WMI">
+                                <rect key="frame" x="0.0" y="742" width="46" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Tcg-Yo-owt" kind="show" id="UDo-ro-Dhw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.9333307147026062" green="0.93331605195999146" blue="0.93333423137664795" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="AQ5-X4-PvV"/>
@@ -897,7 +904,6 @@
         <image name="instagram_welcome_page_upperbar.jpg" width="215.52000427246094" height="34.799999237060547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1dA-Y8-mGS"/>
         <segue reference="FA3-pL-ZZe"/>
         <segue reference="Ebm-8d-s4V"/>
         <segue reference="eib-Bo-1ht"/>
